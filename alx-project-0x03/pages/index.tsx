@@ -1,4 +1,4 @@
-import Button from "@/components/layouts/Button";
+import Button from "@/components/layouts/common/Button";
 import { useRouter } from "next/router";
 import { PageRouteProps } from "@/interface";
 
@@ -17,7 +17,7 @@ export default function Home() {
         Your one-stop platform for everything AI you need. Start exploring by
         navigating to our features below.
       </p>
-      
+
       <div className="flex gap-6">
         <Button
           action={() => routeToNextPage({ pageRoute: "/generate-text-ai" })}
