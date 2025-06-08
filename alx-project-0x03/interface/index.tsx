@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 export interface ButtonProps {
     buttonLabel: string;
     buttonSize?: string;
@@ -7,6 +8,10 @@ export interface ButtonProps {
 
 export interface PageRouteProps {
     pageRoute: string;
+}
+
+export interface LayoutProps {
+  children: ReactNode;
 }
 
 
